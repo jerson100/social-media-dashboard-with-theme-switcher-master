@@ -12,12 +12,16 @@
 <body>
     <section class="social-media">
         <div class="wrapper">
-            <h1 class="social-media__title title--t1">Social Media Dashboard</h1>
-            <p class="social-media__subtitle p">Total Followers: 23,004</p>
-            <div class="social-media__mode">
-                <span class="social-media__nameMode p">Dark Mode</span>
-                <div class="social-media__radio">
-                    <div class="social-media__radio-button"></div>
+            <div class="social-media__header">
+                <div class="social-media__header-title">
+                    <h1 class="social-media__title title--t1">Social Media Dashboard</h1>
+                    <p class="social-media__subtitle p">Total Followers: 23,004</p>
+                </div>
+                <div class="social-media__mode">
+                    <span class="social-media__nameMode p">Dark Mode</span>
+                    <div class="social-media__radio" id="social-media__radio">
+                        <div class="social-media__radio-button"></div>
+                    </div>
                 </div>
             </div>
             <div class="social-media__cards">
@@ -31,7 +35,9 @@
                         <span class="cards-item__name">Followers</span>
                     </div>
                     <div class="cards-item__footer">
-                        <span class="cards-item__countDay"><img class="cards-item__arrowIcon" src="images/icon-up.svg" alt="flecha hacia arriba">12 Today</span>
+                        <span class="cards-item__countDay count-item__countDay--green"><img
+                                class="cards-item__arrowIcon" src="images/icon-up.svg" alt="flecha hacia arriba">12
+                            Today</span>
                     </div>
                 </div>
                 <div class="cards-item cards-item--border">
@@ -44,7 +50,9 @@
                         <span class="cards-item__name">Followers</span>
                     </div>
                     <div class="cards-item__footer">
-                        <span class="cards-item__countDay count-item__countDay--green"><img class="cards-item__arrowIcon" src="images/icon-up.svg" alt="flecha hacia arriba">99 Today</span>
+                        <span class="cards-item__countDay count-item__countDay--green"><img
+                                class="cards-item__arrowIcon" src="images/icon-up.svg" alt="flecha hacia arriba">99
+                            Today</span>
                     </div>
                 </div>
                 <div class="cards-item cards-item--border cards-item--border cards-item--border-color-yr">
@@ -57,7 +65,9 @@
                         <span class="cards-item__name">Followers</span>
                     </div>
                     <div class="cards-item__footer">
-                        <span class="cards-item__countDay count-item__countDay--green"><img class="cards-item__arrowIcon" src="images/icon-up.svg" alt="flecha hacia arriba">1099 Today</span>
+                        <span class="cards-item__countDay count-item__countDay--green"><img
+                                class="cards-item__arrowIcon" src="images/icon-up.svg" alt="flecha hacia arriba">1099
+                            Today</span>
                     </div>
                 </div>
                 <div class="cards-item cards-item--border cards-item--border cards-item--border-color-red">
@@ -70,7 +80,8 @@
                         <span class="cards-item__name">Subscribers</span>
                     </div>
                     <div class="cards-item__footer">
-                        <span class="cards-item__countDay count-item__countDay--red"><img class="cards-item__arrowIcon" src="images/icon-down.svg" alt="flecha hacia abajo">144 Today</span>
+                        <span class="cards-item__countDay count-item__countDay--red"><img class="cards-item__arrowIcon"
+                                src="images/icon-down.svg" alt="flecha hacia abajo">144 Today</span>
                     </div>
                 </div>
             </div>
@@ -78,10 +89,10 @@
     </section>
     <section class="overview-today">
         <div class="wrapper">
-            <h1 class="overview-today__title title--t1 mr-b-1">Overview  - Today</h1>
+            <h1 class="overview-today__title title--t1 mr-b-1">Overview - Today</h1>
             <div class="overview-cards">
                 <div class="cards-item">
-                    <div class="cards-item__header cards-item__header--between">
+                    <div class="cards-item__header cards-item__header--between cards-item__header--min">
                         <span class="cards-item__header-title p">Page Views</span>
                         <img class="cards-item__socialIcon" src="images/icon-facebook.svg" alt="logo de facebook">
                     </div>
@@ -93,7 +104,7 @@
                     </div>
                 </div>
                 <div class="cards-item">
-                    <div class="cards-item__header cards-item__header--between">
+                    <div class="cards-item__header cards-item__header--between cards-item__header--min">
                         <span class="cards-item__header-title p">Likes</span>
                         <img class="cards-item__socialIcon" src="images/icon-facebook.svg" alt="logo de facebook">
                     </div>
@@ -105,7 +116,7 @@
                     </div>
                 </div>
                 <div class="cards-item">
-                    <div class="cards-item__header cards-item__header--between">
+                    <div class="cards-item__header cards-item__header--between cards-item__header--min">
                         <span class="cards-item__header-title p">Likes</span>
                         <img class="cards-item__socialIcon" src="images/icon-instagram.svg" alt="logo de instagram">
                     </div>
@@ -117,7 +128,7 @@
                     </div>
                 </div>
                 <div class="cards-item">
-                    <div class="cards-item__header cards-item__header--between">
+                    <div class="cards-item__header cards-item__header--between cards-item__header--min">
                         <span class="cards-item__header-title p">Profile Views</span>
                         <img class="cards-item__socialIcon" src="images/icon-instagram.svg" alt="logo de instagram">
                     </div>
@@ -129,7 +140,7 @@
                     </div>
                 </div>
                 <div class="cards-item">
-                    <div class="cards-item__header cards-item__header--between">
+                    <div class="cards-item__header cards-item__header--between cards-item__header--min">
                         <span class="cards-item__header-title p">Retweets</span>
                         <img class="cards-item__socialIcon" src="images/icon-twitter.svg" alt="logo de twitter">
                     </div>
@@ -141,7 +152,7 @@
                     </div>
                 </div>
                 <div class="cards-item">
-                    <div class="cards-item__header cards-item__header--between">
+                    <div class="cards-item__header cards-item__header--between cards-item__header--min">
                         <span class="cards-item__header-title p">Likes</span>
                         <img class="cards-item__socialIcon" src="images/icon-twitter.svg" alt="logo de twitter">
                     </div>
@@ -153,7 +164,7 @@
                     </div>
                 </div>
                 <div class="cards-item">
-                    <div class="cards-item__header cards-item__header--between">
+                    <div class="cards-item__header cards-item__header--between cards-item__header--min">
                         <span class="cards-item__header-title p">Likes</span>
                         <img class="cards-item__socialIcon" src="images/icon-youtube.svg" alt="logo de youtube">
                     </div>
@@ -165,7 +176,7 @@
                     </div>
                 </div>
                 <div class="cards-item">
-                    <div class="cards-item__header cards-item__header--between">
+                    <div class="cards-item__header cards-item__header--between cards-item__header--min">
                         <span class="cards-item__header-title p">Total Views</span>
                         <img class="cards-item__socialIcon" src="images/icon-youtube.svg" alt="logo de youtube">
                     </div>
@@ -179,6 +190,7 @@
             </div>
         </div>
     </section>
+    <script src="js/main.js" type="module" nomodule></script>
 </body>
 
 </html>
