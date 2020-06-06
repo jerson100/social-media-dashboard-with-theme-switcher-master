@@ -41,9 +41,17 @@ body{
     font-size: 1em;
 }
 
+.mr-b-1{
+    margin-bottom: 1rem;
+}
+
 /*
     SOCIAL MEDIA
 */
+
+.social-media{
+    margin-bottom: 2rem;
+}
 
 .social-media__title{
     color: var(--white);
@@ -88,9 +96,10 @@ body{
 
 .cards-item{
     background-color: var(--dark-desaturated-blue);
-    padding: 1.8rem 1rem calc(1.8rem - 3px) 1rem;
+    padding: 1.8rem 1.5rem calc(1.8rem - 3px) 1.5rem;
     border-radius: 5px;
     margin-bottom: 1.5rem;
+    color: var(--white);
 }
 
 .cards-item--border{
@@ -124,8 +133,9 @@ body{
     margin-bottom: 2rem;
 }
 
-.cards-item__header--between{
-    justify-content: space-between;
+.cards-item__header--between,
+.cards-item__footer--between{
+    justify-content: space-between !important;
 }
 
 .cards-item__socialIcon{
@@ -134,7 +144,7 @@ body{
     margin-right: .5rem;
 }
 
-.cards-item__username{
+.cards-item__header-title{
     font-size: .9em;
 }
 
@@ -147,7 +157,6 @@ body{
 }
 
 .cards-item__count{
-    color: var(--white);
     font-size: 4em;
 }
 
@@ -163,14 +172,17 @@ body{
 .cards-item__footer{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .cards-item__arrowIcon{
-    margin-right: .3rem;
+    margin-right: .2rem;
 }
 
 .cards-item__countDay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: rgba(255,255,255,.7);
     font-size: .8em;
 }
@@ -181,4 +193,22 @@ body{
 
 .count-item__countDay--red{
     color: var(--bright-red);
+}
+
+.cards-item__counT{
+    font-size: 2.4em;
+    line-height: 1;
+}
+
+.cards-item__header--between 
+.cards-item__socialIcon{
+    margin: 0;
+}
+
+/*
+    Overview Today
+*/
+
+.overview-today__title{
+    color: var(--white);
 }
