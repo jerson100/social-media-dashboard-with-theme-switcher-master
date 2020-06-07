@@ -57,13 +57,7 @@ body{
     font-size: 1em;
 }
 
-.mr-b-1{
-    margin-bottom: 1rem;
-}
-
-/*
-    SOCIAL MEDIA
-*/
+/*-----------> SOCIAL MEDIA <-------------*/
 
 .social-media{
     margin-bottom: 2rem;
@@ -108,8 +102,8 @@ body{
 
 .social-media__radio{
     background: var(--toggle);
-    width: 53px;
-    height: 27px;
+    width: 50px;
+    height: 25px;
     border-radius: 110px;
     position: relative;
     cursor: pointer;
@@ -118,11 +112,11 @@ body{
 .social-media__radio-button{
     position: absolute;
     background-color: var(--very-dark-blue);
-    width: 23px;
-    height: 23px;
+    width: 18px;
+    height: 18px;
     border-radius: 50%;
-    right: calc(100% - (2px + 23px));
-    top: 2px;
+    right: calc(100% - (3.5px + 18px));
+    top: 3.5px;
     transition: right .5s;
 }
 
@@ -130,9 +124,7 @@ body{
     right: 2px;
 }
 
-/*
-    CARD
-*/
+/*-------------> CARD <-------------*/
 
 .cards-item{
     background-color: var(--dark-desaturated-blue);
@@ -217,7 +209,8 @@ body{
     color: var(--desaturated-blue)
 }
 
-/*footer*/
+/*-------------> footer <-------------*/
+
 .cards-item__footer{
     display: flex;
     justify-content: center;
@@ -254,12 +247,11 @@ body{
     margin: 0;
 }
 
-/*
-    Overview Today
-*/
+/*-------------> Overview Today <-------------*/
 
 .overview-today__title{
     color: var(--white);
+    margin-bottom: 1.5rem;
 }
 
 @media screen and (min-width: 1440px){
@@ -276,9 +268,7 @@ body{
         font-size: 28px;
     }
 
-    /*
-        Social Media
-    */
+    /*------------- Social Media <-------------*/
 
     .social-media::before{
         height: 62%;
@@ -307,9 +297,7 @@ body{
         margin-right: .8rem;
     }
 
-    /*
-        CARDS
-    */
+    /*-------------> CARDS <-------------*/
 
     .social-media__cards,
     .overview-cards{
@@ -331,9 +319,7 @@ body{
         margin-right: 0;
     }
 
-    /*
-        Overview Today
-    */
+    /*-------------> Overview Today <-------------*/
 
     .overview-today__title{
         font-size: 24.6px;
